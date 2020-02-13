@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap');
+
+h1 {
+	color: #FFE8D1;
+	font-weight: bold; 
+	letter-spacing: 4px;
+	font-family: 'Playfair Display', serif;
+	font-size: 34px; 
+	font-weight: 800px;
+
+}
+
+h2 {
+	color: #F79F79;
+	font-family: 'Playfair Display', serif;
+	font-size: 23px;
+	font
+
+
+}
+
+body { 
+	font-family: 'Playfair Display', serif;
+	background-color: #FFE8D1;
+	line-height: 1.2; 
+	font-weight: lighter;
+
+
+}
+
+h3 {
+	font-family: 'Playfair Display SC', serif;
+	letter-spacing: 2px;
+	font-size: 35px; 
+	color: #A15E49;		
+
+}
+
+img	{
+	width: 250px
+
+
+
+}
+
+.btn {
+	background-color: #FFE8D1;
+	color: #A15E49;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 45px;
+	border-radius: 50px
+	box-shadow: 4px 10px 20px rgb(0,0,0,0.2);
+	font-family: 'Playfair Display', serif;
+	transition: .5s;
+	font-size: 20px;
+	margin-bottom: 50px; 
+
+}
+
+.btn:hover {
+	background-color: #F79F79;
+
+}
+
+.btnmedia {
+	color: #FFE8D1;
+	transition: .5s;
+	list-style: none; 
+	padding-left: 0px; 
+
+}
+
+.btnmedia li {
+	display: inline;
+	padding: 8px; 
+}
+
+.btnmedia i {
+	font-size: 50px; 
+}
+
+.btnmedia:hover {
+	color: #F79F79;
+
+
+}
+.art {
+	background: #F79F79;
+	color: white;
+	font-size: 16px; 
+	background-image: url("booksimage.jpg");
+	background-image: url("runimage.jpg");
+	background-image: url("monkeyimage.jpg");
+	padding: 5px 30px 10px 30px;
+
+	border-radius: 5px;
+
+	box-shadow: 10px 10px 35px
+	rgba(0,0,0,0.1);
+
+	margin: 40px auto;
+
+	border: 3px dotted white;
+	width: 500px;
+
+}
+
+.text-align {
+	text-align: center;
+
+}
+
+
+
+.debutfin {
+	color: #FFE8D1;
+	background-color: #B66E28;
+	font-weight: lighter;
+	font-size: 18px;
+
+	padding: 5px 30px 40px 40px;
+
+	border-radius: 5px;
+
+	box-shadow: 10px 10px 35px
+	rgba(0,0,0,0.1);
+
+	margin: 40px auto;
+	width: 500px;
+	border: 6px solid #F79F79;
+
+}
+
+
+#image {
+
+border-radius: 150px;
+border: 7px solid #F79F79;
+
+
+}
+
+.imagepassion {
+	border-radius: 20px;
+}
+
+@media (max-width: 800px) {
+	.art {
+		width: 90%;
+	}
+	.debutfin {
+		width: 90%;
+	}
+}
+	
+@media (max-width: 500px) {
+	.art {
+		width: 80%;
+	}
+	.debutfin {
+		width: 80%;
+	}
+	
