@@ -120,11 +120,8 @@ img	{
 	background-color: #B66E28;
 	font-weight: lighter;
 	font-size: 18px;
-
 	padding: 5px 30px 40px 40px;
-
 	border-radius: 5px;
-
 	box-shadow: 10px 10px 35px
 	rgba(0,0,0,0.1);
 
@@ -137,6 +134,7 @@ img	{
 
 #image {
 
+margin-bottom: 35px; 
 border-radius: 150px;
 border: 7px solid #F79F79;
 
